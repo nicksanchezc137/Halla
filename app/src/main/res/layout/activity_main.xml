@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.halla.MainActivity"
+    android:background="#0e1f41"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#0e1f41"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/actionbar"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment1"
+        android:name="com.example.hp.halla.Login"
+        />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment2"
+        android:name="com.example.hp.halla.CreateAccount"
+        />
+
+</RelativeLayout>
